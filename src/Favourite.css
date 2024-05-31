@@ -1,0 +1,33 @@
+.fav-container {
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+    background-color: #313745;
+}
+div{
+    color: #fff;
+}
+.flex-justify-space-between {
+    display: flex;
+    justify-content: space-between;
+}
+
+.flex-container{
+    display: flex;
+    align-items: center;
+}
+
+.nav-wrap > div {
+padding: 12px 22px;
+background: linear-gradient(96.97deg, rgba(90, 99, 121, 0.6) -6.01%, rgba(90, 99, 121, 0.2) 104.93%);
+backdrop-filter: blur(5px);
+border-radius: 12px;
+ margin-bottom: 15px;
+}
+.fav-nav{
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+.home-move, .work-move{
+    margin-left: 10px;
+}
