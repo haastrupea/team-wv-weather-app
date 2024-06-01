@@ -3,6 +3,7 @@ import styles from './searchscreen.module.css';
 import { CiSearch } from "react-icons/ci";
 import { GoChevronRight } from "react-icons/go";
 import { FaCloudversify } from 'react-icons/fa';
+import { Link } from 'react-router-dom';
 
 export default function SearchScreen() {
     const { form, input, search, info, smallHeading, cityBlock, cityName, countryName, degree, cityDegree, degreeIcon } = styles;
@@ -21,7 +22,7 @@ export default function SearchScreen() {
             <div>
                 <div className={info}>
                     <h2 className={smallHeading}>Major Cities</h2>
-                    <GoChevronRight />
+                    <Link to='/favourite'><div><GoChevronRight /></div></Link>
                 </div>
 
                 <div>

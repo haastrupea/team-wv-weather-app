@@ -6,6 +6,7 @@ import { CgMoreVerticalO } from "react-icons/cg";
 import { IoMdAdd } from "react-icons/io";
 import { SiPolywork } from "react-icons/si";
 
+import { Link } from 'react-router-dom'
 
 
 // import logs from './asssets/icons/add.svg';
@@ -15,7 +16,7 @@ function Favorites() {
   return (
     <div className='fav-container'>
         <div className='fav-nav flex-justify-space-between'>
-            <div><CgChevronLeft/></div>
+            <Link to='..'><div><CgChevronLeft/></div></Link>
             <div>Favourites</div>
             <div><IoMdAdd/></div>
         </div>
